@@ -97,12 +97,14 @@ REFRESH_TOKEN_SECRET=your_refresh_secret_key
 EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 CLOUDINARY_URL=your_cloudinary_url
+STRIPE_SECRET_KEY= sk_teST....
 ```
 
 **Frontend `.env`:**
 
 ```
 VITE_API_URL=http://localhost:5000
+VITE_STRIPE_PUBLIC_KEY= YOUR STRIPE PUBLIC KEY
 ```
 
 ### 4️⃣ Run the App
@@ -155,8 +157,8 @@ SnapKart/
 * [x] Voice Search
 * [x] Admin Panel
 * [x] Product & Category Management
-* [ ] Payment Gateway Integration
-* [ ] Deployment to Vercel (frontend) + Render (backend)
+* [x] Payment Gateway Integration
+* [x] Deployment to Vercel (frontend) + Render (backend)
 
 ---
 
